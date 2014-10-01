@@ -1,5 +1,8 @@
+set(projectName "emulator8051")
 cmake_minimum_required (VERSION 2.6)
-project (Emulator8051)
+project (${projectName})
+
+enable_testing()
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU" OR
     "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
@@ -15,8 +18,16 @@ if (NOT CONFIGURED_ONCE)
         CACHE STRING "Flags used by the compiler during all build types." FORCE)
 endif()
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable(Emulator8051 src/main.cpp)
+add_subdirectory(src)
+
+file(GLOB SRC
+    "src/*.h"
+    "src/*.cpp"
+)
+
+add_executable(${projectName} ${SRC})
 
 set(CONFIGURED_ONCE TRUE CACHE INTERNAL
     "A flag showing that CMake has configured at least once.")

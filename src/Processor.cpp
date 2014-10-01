@@ -400,8 +400,8 @@ unsigned short int Processor::calculateNewProgramCounterUsingAJMP(
 {
 	unsigned char bitsShouldStay = 0b11111000;
 	unsigned char parameter = ROM[getProgramCounter()];
-	unsigned short int calculatedProgramCounter;
-	calculatedProgramCounter = calculatedProgramCounter >> 8;
+	unsigned short int calculatedProgramCounter = 0; //TODO: somethig is wrong here error
+	calculatedProgramCounter = getProgramCounter() >> 8;
 	calculatedProgramCounter &= bitsShouldStay;
 	calculatedProgramCounter += (ajmpOpCode >> 5);
 	calculatedProgramCounter = calculatedProgramCounter << 8;

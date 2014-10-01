@@ -1,0 +1,1 @@
+/home/radek/Desktop/8051Emulator/CMakeFiles/emulator8051.dir
