@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/emulator8051.dir/src/Assembler.cpp.o CMakeFiles/emulator8051.dir/src/main.cpp.o CMakeFiles/emulator8051.dir/src/Processor.cpp.o CMakeFiles/emulator8051.dir/src/BytesArray.cpp.o  -o emulator8051 -rdynamic 

@@ -1,2 +1,0 @@
-/usr/bin/ar cr libemulatorCore.a  CMakeFiles/emulatorCore.dir/Assembler.cpp.o CMakeFiles/emulatorCore.dir/Processor.cpp.o CMakeFiles/emulatorCore.dir/BytesArray.cpp.o
-/usr/bin/ranlib libemulatorCore.a
