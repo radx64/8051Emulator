@@ -1,0 +1,7 @@
+/home/radek/Desktop/8051Emulator/build/test/CMakeFiles/EmulatorTests.dir
+/home/radek/Desktop/8051Emulator/build/CMakeFiles/emulator8051.dir
+/home/radek/Desktop/8051Emulator/build/src/CMakeFiles/emulatorCore.dir
+/home/radek/Desktop/8051Emulator/build/gmock/CMakeFiles/gmock.dir
+/home/radek/Desktop/8051Emulator/build/gmock/CMakeFiles/gmock_main.dir
+/home/radek/Desktop/8051Emulator/build/gmock/gtest/CMakeFiles/gtest.dir
+/home/radek/Desktop/8051Emulator/build/gmock/gtest/CMakeFiles/gtest_main.dir

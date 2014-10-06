@@ -6,6 +6,7 @@
  */
 
 #include "BytesArray.h"
+#include <cstdio>
 
 BytesArray::BytesArray()
 {

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Processor.h
+string
+-
+stdlib.h
+-
+stdio.h
+-
+map
+-
+stdexcept
+-
+
+/home/radek/Desktop/8051Emulator/main.cpp
+iostream
+-
+Processor.h
+/home/radek/Desktop/8051Emulator/Processor.h
+

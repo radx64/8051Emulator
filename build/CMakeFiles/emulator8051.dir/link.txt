@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/emulator8051.dir/main.cpp.o  -o emulator8051 -rdynamic src/libemulatorCore.a 

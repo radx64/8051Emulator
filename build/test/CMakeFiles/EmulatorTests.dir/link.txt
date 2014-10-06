@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/EmulatorTests.dir/testCases/ProcessorTests.cpp.o CMakeFiles/EmulatorTests.dir/testCases/AllTest.cpp.o CMakeFiles/EmulatorTests.dir/testCases/AssemblerTests.cpp.o CMakeFiles/EmulatorTests.dir/testCases/bytesArrayTests.cpp.o  -o EmulatorTests -rdynamic ../gmock/libgmock_main.a ../src/libemulatorCore.a -lpthread 

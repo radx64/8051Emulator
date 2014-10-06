@@ -18,16 +18,16 @@ if (NOT CONFIGURED_ONCE)
         CACHE STRING "Flags used by the compiler during all build types." FORCE)
 endif()
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}
+					src)
 
 add_subdirectory(src)
 
-file(GLOB SRC
-    "src/*.h"
-    "src/*.cpp"
-)
+add_subdirectory(test)
 
-add_executable(${projectName} ${SRC})
+add_executable(${projectName} main.cpp)
+
+target_link_libraries(${projectName} emulatorCore)
 
 set(CONFIGURED_ONCE TRUE CACHE INTERNAL
     "A flag showing that CMake has configured at least once.")
