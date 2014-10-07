@@ -19,4 +19,4 @@ file(GLOB TESTS
 add_executable(EmulatorTests ${SRC} ${TESTS})
 target_link_libraries(EmulatorTests gmock_main emulatorCore)
 
-add_test(EmulatorTests EmulatorTests)
+add_test(Tests EmulatorTests)
